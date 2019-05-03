@@ -36,8 +36,8 @@ module Barrel_Shifter_AnySize_tb();
     end
     
     initial begin
-      	$dumpfile("dump.vcd");
-      	$dumpvars;
+      	//$dumpfile("dump.vcd");
+      	//$dumpvars;
       
         in = 8'b10100001;
        
